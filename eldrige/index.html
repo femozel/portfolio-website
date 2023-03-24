@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eldragearts</title>
+        <link rel="stylesheet" href="portfolio.css">
+        <script src="https://kit.fontawesome.com/776880a867.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <!-- <div class="container">
+                <nav>
+                    <img src="images/logo.jpg" class="logo">
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul> -->
+                    <div class="topnav container" id="myTopnav">
+                      <a href="#header">Home</a>
+                      <a href="#about">About</a>
+                      <a href="#services">Services</a>
+                      <a href="#portfolio">Portfolio</a>
+                      <a href="#contact">Contact</a>
+                      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                    </div>
+                </nav>
+                <div class="header-text">
+                    <p>Website/Graphics Designer</p>
+                    <h1>Hi,I'm <span>Eldrage </span><br>Arts and Welcome to<br> my website</h1>
+                </div>
+            </div>
+        </div>
+        <!----about section---->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/picture.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title"><span>About Me</span></h1>
+                        <p>
+                            I'm a web developer who is dedicated to fostering excellence through reasearch,capacity
+                            building and development of a strong community of web experts in Africa.We believe that
+                            by fostering research,capacity building and development of a strong commmunity of experts,
+                            we can help improve the overall web skills of the continent.
+                            Graphic designing and photography are also areas of skills we  are based on and we can 
+                            be booked for the same at any time.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>web development</span><br>Web app Development</li>
+                                <li><span>App Deelopment</span><br>Building Android/ios apps</li>
+                                <li><span>Graphics design</span><br>Business Fliers<br>Posters</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022-current</span><br>IT expert undergraduate at Kenyatta University</li>
+                                <li><span>2021-2022</span><br>Graphics designer for Oltepesi tours and travel</li>
+                                <li><span>2023</span><br>UI/UX Design for unit project</li>
+                                <li><span>2023</span><br>Photographer for Triplex Arts</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2009-2016</span><br>KCPE at Gundo Consolata Academy</li>
+                                <li><span>2017-2020</span><br>KCSE at Agoro Sare High School </li>
+                                <li><span>2021-current</span><br>Undergraduate at Kenyatta University</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----services ---->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title"><span>My Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores ipsa nostrum
+                        commodi? Suscipit temporibus ea dignissimos minus veniam dolorum inventore magni
+                        odit in enim voluptates commodi culpa quo, debitis doloremque.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores ipsa nostrum
+                        commodi? Suscipit temporibus ea dignissimos minus veniam dolorum inventore magni
+                        odit in enim voluptates commodi culpa quo, debitis doloremque.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores ipsa nostrum
+                        commodi? Suscipit temporibus ea dignissimos minus veniam dolorum inventore magni
+                        odit in enim voluptates commodi culpa quo, debitis doloremque.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------- portfolio ------>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/download.jpg">
+                        <div class="layer">
+                            <h3>  Social Media App</h3>
+                            <p>The app connects you to the talented people around the world.
+                                Download it from playstore.
+                            </p>
+                            <a href="https://github.com/wasabeef/glide-transformations"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/istockphoto-1140848976-612x612.jpg">
+                        <div class="layer">
+                            <h3>   Music App</h3>
+                            <p>The app connects you to the talented people around the world.
+                                Download it from playstore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/images.jpg">
+                        <div class="layer">
+                            <h3>  Online Shopping App</h3>
+                            <p>The app connects you to the talented people around the world.
+                                Download it from playstore.
+                            </p>
+                            <a href="https://www.instagram.com/graycee_iguku/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://eldrage.blogspot.com/2021/10/eldrage-arts-is-professional-blog.html" class="btn">See more</a>
+            </div>
+        </div>
+        <!----- contact ------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>femozeldrage45@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+254 740 662 291</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/rudy.deyz"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/eldrage_arts"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/eldrage_arts/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/femoz-eldrage-603569224/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/femozel"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="images/FELIX OTIENO OBALLA CV.docx"download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email  example@gmail.com" required>
+                            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="top">
+                <a href="#header">Back to top</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright &copy Eldrage Arts</p>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName ("tab-links");
+            var tabcontents = document.getElementsByClassName ("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+    </body>
+</html>
